@@ -283,6 +283,10 @@ app.answerSelect = () => {
                 })
             }
 
+            $(body).css({
+                overflow: 'hidden',
+            })
+
             app.updateScore();
             app.endGame();
 
